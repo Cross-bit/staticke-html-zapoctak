@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Statický web</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Ondřej Kříž">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+        <header>
+            <h1>Srdce české krajiny</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href = "index.html">O stránce</a></li>
+                <li><a href = "articles-archive.html">Články</a></li>
+                <li class="dropdown-item">
+                    <a href = "#">Živočichové </a><i class="fa fa-caret-down"></i>
+                    <ul>
+                        <li><a href = "under-construction.html">Ryby<i class="fas fa-fish"></i></a></li>
+                        <li><a href = "under-construction.html">Obojživelníci<i class="fas fa-frog"></i></a></li>
+                        <li><a href = "under-construction.html">Plazi<i class="fas fa-otter"></i></a></li>
+                        <li><a href = "under-construction.html">Ptáci<i class="fas fa-dove"></i></a></li>
+                        <li><a href = "under-construction.html">Savci<i class="fas fa-cat"></i></a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-item">
+                    <a href = "#">Rostiliny </a><i class="fa fa-caret-down"></i>
+                    <ul>
+                        <li><a href = "under-construction.html">Byliny<i class="fab fa-pagelines"></i></a></li>
+                        <li><a href = "under-construction.html">Dřeviny<i class="fas fa-tree"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+<!-- thead tbody -->
+        <main role="main">
+            <h2>Obsah připravujeme :)</h2>
+
+            <h2>Články:</h2>
+            <div id="page-content">
+                <div class = "latest-posts">
+                    <div class="posts-list">
+                        <article class="post-card">
+                            <header>
+                                <h3>Kůrovcové kalamita v českých lesích nekončí...</h3>
+                                <time datetime = "2020-07-12 00:00"> 20. Prosince 2020</time>
+                            </header>
+                            <div class="content">
+                            <p><img src="place-holder250x250.png" alt="image of pi" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut in porro quidem tempora nisi? Veritatis, voluptates, similique temporibus voluptate fugit architecto nihil magni culpa maxime minus odit deserunt necessita...</p>
+                            <a href="article.html">Číst dál</a>
+                            </div>
+                        </article>
+
+                        <article class="post-card">
+                            <header>
+                                <h3>Divoké koně pomáhají navracet do přírody i jihočeští vědci</h3>
+                                <time datetime = "2020-07-12 00:00"> 7. Prosince 2020</time>
+                            </header>
+                            <div class="content">
+                                <p><img src="place-holder250x250.png" alt="image of euler">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut in porro quidem tempora nisi? Veritatis, voluptates, similique temporibus voluptate fugit architecto nihil magni culpa maxime minus odit deserunt necessitatibus aut?...</p>
+                                <a href="article.html">Číst dál</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <aside id="side-bar">
+                <h2>Medailonek dne:</h2>
+                <div class = "interest-card">
+                    <img src="deer.jpg" alt = "Deer"/>
+                    <h3>Jelen evropský <span> (Cervus elaphus) </span></h3>
+
+                    <div class="content">
+                        <p>Po celá století byl jelen evropský velmi oblíbenou lovnou zvěří, což na značné části jeho areálu rozšíření platí dodnes. Ačkoli byla jeho početnost často viditelně oslabena, díky zpětné reintrodukci do volné přírody a mnoha ochranářským opatřením přežívá v poměrně hojném počtu i v současné době.</p>
+                        <hr>
+                    <h4>Přehled základních vlastností</h4>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Délka života</th>
+                                <th>Délka</th>
+                                <th>Výška (bez hlavy)</th>
+                                <th>Váha</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Samci</td>
+                                <td rowspan="2" >25 let</td>
+                                <td>175 - 250 cm</td>
+                                <td>122 cm</td>
+                                <td>160 - 240 kg</td>
+                            </tr>
+                            <tr>
+                                <td>Samice</td>
+                                <td >160 - 210 cm</td>
+                                <td >114 cm</td>
+                                <td >120 - 170 kg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </aside>
+        </main>
+        <footer>
+            <p>Ondřej Kříž 2021 <a href="answer.html">(42)</a><p>
+        </footer>
+    </div>
+    </body>
+</html>
